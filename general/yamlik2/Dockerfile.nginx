@@ -1,0 +1,4 @@
+FROM nginx:1.21.1
+EXPOSE 8090
+CMD ["nginx", "-g", "daemon off;"]
+
